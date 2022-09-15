@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 /**
  * print_sign - function to check for the sign of a number
  * @n: is the int passed as function argument
@@ -14,7 +14,7 @@ int print_sign(int n)
 
 	else if (n < 0)
 	{
-		_putchar('-')
+		_putchar('-');
 		return (-1);
 	}
 	else
