@@ -2,7 +2,7 @@
 
 /**
  * main - print putchar
- * return - returns 0 if the program is a success
+ * Return: always 0
  */
 
 int main(void)
